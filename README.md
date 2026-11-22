@@ -1,2 +1,2 @@
 # MSI-Muscle-signal-interface
-Wireless single-channel surface EMG amplifier built from discrete op-amps, with ESP32 firmware and a Python live-plot and measurement app.
+MSI is a wireless surface EMG amplifier built from ordinary op-amps. EMG is the tiny electrical signal muscles give off when they contract. It's only a fraction of a millivolt on the skin, so it needs a lot of amplifying. Instead of using an instrumentation amplifier chip, MSI uses a three-op-amp instrumentation amplifier followed by a separate gain stage. An ESP32 samples the output and streams it over Wi-Fi to a laptop, where a Python app plots the signal live and logs measurements. This repo walks through the build one stage at a time, starting with the power supply.
