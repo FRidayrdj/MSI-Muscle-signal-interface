@@ -23,8 +23,8 @@ electrodes → in-amp (×8.4, rejects hum) → gain stage (×101, blocks DC drif
 
 | | |
 |---|---|
-| ![signal path](hardware/schematics/signal_path.png) | ![power supply](hardware/schematics/power_supply.png) |
-| ![vmid](hardware/schematics/vmid_reference.png) | |
+| ![signal path](hardware/schematics/SignalPath.png) | ![power supply](hardware/schematics/PowerSupply.png) |
+| ![vmid](hardware/schematics/vmid reference.png) | |
 
 ## Results
 
